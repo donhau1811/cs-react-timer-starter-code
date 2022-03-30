@@ -2,7 +2,7 @@ import useTimer from "./useTimer";
 import { formatTime } from "./formatTime";
 
 function App() {
-  const { time, isStart, startTimer, stopTimer, resetTimer, active } =
+  const { time, startTimer, stopTimer, resetTimer, active } =
     useTimer(0);
 
   return (
